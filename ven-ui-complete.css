@@ -511,7 +511,7 @@ a.status-card, .status-card {
   display: none !important;
 }
 
-.icon-button.star-icon.active, .notification-group--favourite .notification-group__icon, .picture-in-picture__footer .icon-button.star-icon.active {
+.icon-button.star-icon.active, .notification-group--favourite .notification-group__icon, .media-modal__overlay .picture-in-picture__footer .icon-button.star-icon.active {
   color: #d01414;
 }
 
@@ -559,8 +559,8 @@ a.column-link.column-link--transparent:has(> svg.icon.icon-star)::before {
   background-repeat: no-repeat;
 }
 
-.picture-in-picture__footer .icon-button.star-icon.active:hover {
-  background: #ca040426;
+.media-modal__overlay .picture-in-picture__footer .icon-button.star-icon.active:hover, .media-modal__overlay .picture-in-picture__footer .icon-button.star-icon.active:active, .media-modal__overlay .picture-in-picture__footer .icon-button.star-icon.active:focus {
+  background: #ff6f6f26;
 }
 
 
