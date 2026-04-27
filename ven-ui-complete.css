@@ -170,7 +170,7 @@ body {
   background: #0057C3;
 }
 
-.notification-ungrouped__header, .status__relative-time, .conversation__content__relative-time, .status__prepend, .notification-ungrouped--direct .notification-ungrouped__header, .status__wrapper-direct .status__prepend, .detailed-status__wrapper-direct .status__prepend, .translate-button, .icon-button.bookmark-icon.active {
+.notification-ungrouped__header, .status__relative-time, .conversation__content__relative-time, .status__prepend, .notification-ungrouped--direct .notification-ungrouped__header, .status__wrapper-direct .status__prepend, .detailed-status__wrapper-direct .status__prepend, .translate-button, .icon-button.bookmark-icon.active, .icon-button.bookmark-icon.active:hover {
   color: #b68900;
 }
 
